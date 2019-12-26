@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidBasicsSBBSinglePage</string>
+    <string name="sbb_intro_one">Swiss Federal Railways (German: Schweizerische Bundesbahnen, SBB; French: Chemins de fer fédéraux suisses, CFF; Italian: Ferrovie federali svizzere, FFS) is the national railway company of Switzerland. It is usually referred to by the initials of its German, French, and Italian names, either as SBB CFF FFS, or used separately. The Romansh version of its name, Viafiers federalas svizras, is not officially used.</string>
+    <string name="sbb_intro_two">The company is headquartered in Bern. It used to be a government institution, but since 1999 it has been a special stock corporation whose shares are held by the Swiss Confederation and the Swiss cantons.</string>
+    <string name="sbb_intro_three">SBB was ranked first among national European rail systems in the 2017 European Railway Performance Index for its intensity of use, quality of service, and safety rating.[4] While European rail operators such as French SNCF and Spanish Renfe have emphasised the building of high-speed rail, SBB has invested in the reliability and quality of service of its conventional rail network. In addition to passenger rail, SBB operates cargo and freight rail service and has large real estate holdings in Switzerland.</string>
+    <string name="sbb_dosto_intro">This is the long awaited SBB RABDe 502 train for inter-city travel by Bombardie Transportation.</string>
+    <string name="dosto_exterior">This is how it looks from the outside:</string>
+    <string name="dosto_interior">This is how it looks from the inside:</string>
 </resources>

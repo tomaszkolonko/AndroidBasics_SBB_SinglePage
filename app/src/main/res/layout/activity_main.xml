@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/sbb_main"
             android:padding="20dp"
-            android:text="Swiss Federal Railways (German: Schweizerische Bundesbahnen, SBB; French: Chemins de fer fédéraux suisses, CFF; Italian: Ferrovie federali svizzere, FFS) is the national railway company of Switzerland. It is usually referred to by the initials of its German, French, and Italian names, either as SBB CFF FFS, or used separately. The Romansh version of its name, Viafiers federalas svizras, is not officially used."
+            android:text="@string/sbb_intro_one"
             />
 
         <TextView
@@ -34,7 +34,7 @@
             android:layout_below="@id/sbb_intro_one"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
-            android:text="The company is headquartered in Bern. It used to be a government institution, but since 1999 it has been a special stock corporation whose shares are held by the Swiss Confederation and the Swiss cantons."
+            android:text="@string/sbb_intro_two"
             />
 
         <TextView
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/sbb_intro_two"
             android:padding="20dp"
-            android:text="SBB was ranked first among national European rail systems in the 2017 European Railway Performance Index for its intensity of use, quality of service, and safety rating.[4] While European rail operators such as French SNCF and Spanish Renfe have emphasised the building of high-speed rail, SBB has invested in the reliability and quality of service of its conventional rail network. In addition to passenger rail, SBB operates cargo and freight rail service and has large real estate holdings in Switzerland."
+            android:text="@string/sbb_intro_three"
             />
 
         <ImageView
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/sbb_dosto"
             android:padding="20dp"
-            android:text="This is the long awaited SBB RABDe 502 train for inter-city travel by Bombardie Transportation."
+            android:text="@string/sbb_dosto_intro"
             />
 
         <TextView
@@ -72,7 +72,7 @@
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
             android:paddingBottom="20dp"
-            android:text="This is how it looks from the outside:"
+            android:text="@string/dosto_exterior"
             />
 
         <ImageView
@@ -81,12 +81,14 @@
             android:layout_height="200dp"
             android:layout_below="@id/dosto_exterior"
             android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
             android:src="@drawable/dosto_exterior_one" />
         <ImageView
             android:id="@+id/dosto_exterior_two"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@id/dosto_exterior_one"
+            android:layout_marginBottom="10dp"
             android:scaleType="centerCrop"
             android:src="@drawable/dosto_exterior_two" />
         <ImageView
@@ -103,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/dosto_exterior_three"
             android:padding="20dp"
-            android:text="This is how it looks from the inside:"
+            android:text="@string/dosto_interior"
             />
 
         <ImageView
@@ -112,6 +114,7 @@
             android:layout_height="200dp"
             android:layout_below="@id/dosto_interior"
             android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
             android:src="@drawable/dosto_interior_one" />
         <ImageView
             android:id="@+id/dosto_interior_two"
@@ -119,6 +122,7 @@
             android:layout_height="200dp"
             android:layout_below="@id/dosto_interior_one"
             android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
             android:src="@drawable/dosto_interior_two" />
         <ImageView
             android:id="@+id/dosto_interior_three"
