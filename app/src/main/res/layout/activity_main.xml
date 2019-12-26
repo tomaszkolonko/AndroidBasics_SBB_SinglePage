@@ -1,18 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/sbb_main"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sbb_main"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sbb_intro_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbb_main"
+            android:padding="20dp"
+            android:text="Swiss Federal Railways (German: Schweizerische Bundesbahnen, SBB; French: Chemins de fer fédéraux suisses, CFF; Italian: Ferrovie federali svizzere, FFS) is the national railway company of Switzerland. It is usually referred to by the initials of its German, French, and Italian names, either as SBB CFF FFS, or used separately. The Romansh version of its name, Viafiers federalas svizras, is not officially used."
+            />
+
+        <TextView
+            android:id="@+id/sbb_intro_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbb_intro_one"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="The company is headquartered in Bern. It used to be a government institution, but since 1999 it has been a special stock corporation whose shares are held by the Swiss Confederation and the Swiss cantons."
+            />
+
+        <TextView
+            android:id="@+id/sbb_intro_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbb_intro_two"
+            android:padding="20dp"
+            android:text="SBB was ranked first among national European rail systems in the 2017 European Railway Performance Index for its intensity of use, quality of service, and safety rating.[4] While European rail operators such as French SNCF and Spanish Renfe have emphasised the building of high-speed rail, SBB has invested in the reliability and quality of service of its conventional rail network. In addition to passenger rail, SBB operates cargo and freight rail service and has large real estate holdings in Switzerland."
+            />
+
+        <ImageView
+            android:id="@+id/sbb_dosto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/sbb_intro_three"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dost"
+            />
+
+        <TextView
+            android:id="@+id/dosto_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbb_dosto"
+            android:padding="20dp"
+            android:text="This is the long awaited SBB RABDe 502 train for inter-city travel by Bombardie Transportation."
+            />
+
+        <TextView
+            android:id="@+id/dosto_exterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dosto_intro"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:text="This is how it looks from the outside:"
+            />
+
+        <ImageView
+            android:id="@+id/dosto_exterior_one"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/dosto_exterior"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dosto_exterior_one" />
+        <ImageView
+            android:id="@+id/dosto_exterior_two"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/dosto_exterior_one"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dosto_exterior_two" />
+        <ImageView
+            android:id="@+id/dosto_exterior_three"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/dosto_exterior_two"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dosto_exterior_three" />
+
+        <TextView
+            android:id="@+id/dosto_interior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dosto_exterior_three"
+            android:padding="20dp"
+            android:text="This is how it looks from the inside:"
+            />
+
+        <ImageView
+            android:id="@+id/dosto_interior_one"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/dosto_interior"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dosto_interior_one" />
+        <ImageView
+            android:id="@+id/dosto_interior_two"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/dosto_interior_one"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dosto_interior_two" />
+        <ImageView
+            android:id="@+id/dosto_interior_three"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/dosto_interior_two"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dosto_interior_three" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
