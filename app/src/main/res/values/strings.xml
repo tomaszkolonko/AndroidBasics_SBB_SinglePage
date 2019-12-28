@@ -6,4 +6,9 @@
     <string name="sbb_dosto_intro">This is the long awaited SBB RABDe 502 train for inter-city travel by Bombardie Transportation.</string>
     <string name="dosto_exterior">This is how it looks from the outside:</string>
     <string name="dosto_interior">This is how it looks from the inside:</string>
+    <string name="bullet_point">•  \t</string>
+    <string name="dosto_characteristic_one">Train type: EC / IR</string>
+    <string name="dosto_characteristic_two">Number of waggons (in the future): 62</string>
+    <string name="dosto_characteristic_three">Number of seats: 200 IC:606 / 200:682 / 100:330</string>
+    <string name="dosto_characteristic_four">Low floor entrance: Yes</string>
 </resources>

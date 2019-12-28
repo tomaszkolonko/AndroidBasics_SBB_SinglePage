@@ -65,10 +65,65 @@
             />
 
         <TextView
-            android:id="@+id/dosto_exterior"
+            android:id="@+id/characteristics"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/dosto_intro"
+            android:padding="20dp"
+            android:text="Characteristics"
+            />
+
+        <TableLayout
+            android:id="@+id/table_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/characteristics"
+            android:padding="20dp"
+            >
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="@string/bullet_point" />
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="@string/dosto_characteristic_one" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="@string/bullet_point" />
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="@string/dosto_characteristic_two" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="@string/bullet_point" />
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="@string/dosto_characteristic_three" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="@string/bullet_point" />
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="@string/dosto_characteristic_four" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/dosto_exterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/table_row"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
             android:paddingBottom="20dp"
