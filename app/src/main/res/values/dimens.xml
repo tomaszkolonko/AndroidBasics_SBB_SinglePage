@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="banner_height">200dp</dimen>
+    <dimen name="padding_standard">20dp</dimen>
+</resources>

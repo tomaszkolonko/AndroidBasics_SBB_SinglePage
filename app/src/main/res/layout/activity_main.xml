@@ -8,68 +8,57 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content" >
 
         <ImageView
             android:id="@+id/sbb_main"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:scaleType="centerCrop"
             android:src="@drawable/sbb_main"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            style="@style/GeneralTextViewBoxAllPadding"
             android:id="@+id/sbb_intro_one"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_below="@id/sbb_main"
-            android:padding="20dp"
             android:text="@string/sbb_intro_one"
             />
 
         <TextView
+            style="@style/GeneralTextViewBoxLeftRightPadding"
             android:id="@+id/sbb_intro_two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@id/sbb_intro_one"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
             android:text="@string/sbb_intro_two"
             />
 
         <TextView
+            style="@style/GeneralTextViewBoxAllPadding"
             android:id="@+id/sbb_intro_three"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@id/sbb_intro_two"
-            android:padding="20dp"
             android:text="@string/sbb_intro_three"
             />
 
         <ImageView
             android:id="@+id/sbb_dosto"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/sbb_intro_three"
             android:scaleType="centerCrop"
             android:src="@drawable/dost"
             />
 
         <TextView
+            style="@style/GeneralTextViewBoxAllPadding"
             android:id="@+id/dosto_intro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@id/sbb_dosto"
-            android:padding="20dp"
             android:text="@string/sbb_dosto_intro"
             />
 
         <TextView
+            style="@style/GeneralTextViewBoxAllPadding"
             android:id="@+id/characteristics"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@id/dosto_intro"
-            android:padding="20dp"
             android:text="Characteristics"
             />
 
@@ -78,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/characteristics"
-            android:padding="20dp"
+            android:padding="@dimen/padding_standard"
             >
 
             <TableRow>
@@ -120,20 +109,17 @@
         </TableLayout>
 
         <TextView
+            style="@style/GeneralTextViewBoxLeftRightPadding"
             android:id="@+id/dosto_exterior"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@id/table_row"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:paddingBottom="20dp"
+            android:paddingBottom="@dimen/padding_standard"
             android:text="@string/dosto_exterior"
             />
 
         <ImageView
             android:id="@+id/dosto_exterior_one"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/dosto_exterior"
             android:scaleType="centerCrop"
             android:layout_marginBottom="10dp"
@@ -141,7 +127,7 @@
         <ImageView
             android:id="@+id/dosto_exterior_two"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/dosto_exterior_one"
             android:layout_marginBottom="10dp"
             android:scaleType="centerCrop"
@@ -149,24 +135,22 @@
         <ImageView
             android:id="@+id/dosto_exterior_three"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/dosto_exterior_two"
             android:scaleType="centerCrop"
             android:src="@drawable/dosto_exterior_three" />
 
         <TextView
+            style="@style/GeneralTextViewBoxAllPadding"
             android:id="@+id/dosto_interior"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_below="@id/dosto_exterior_three"
-            android:padding="20dp"
             android:text="@string/dosto_interior"
             />
 
         <ImageView
             android:id="@+id/dosto_interior_one"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/dosto_interior"
             android:scaleType="centerCrop"
             android:layout_marginBottom="10dp"
@@ -174,7 +158,7 @@
         <ImageView
             android:id="@+id/dosto_interior_two"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/dosto_interior_one"
             android:scaleType="centerCrop"
             android:layout_marginBottom="10dp"
@@ -182,7 +166,7 @@
         <ImageView
             android:id="@+id/dosto_interior_three"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/banner_height"
             android:layout_below="@id/dosto_interior_two"
             android:scaleType="centerCrop"
             android:src="@drawable/dosto_interior_three" />
